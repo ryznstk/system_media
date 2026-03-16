@@ -119,6 +119,8 @@ constexpr char kEffectUuidNull[] = "ec7178ec-e5e1-4432-a3f4-4657e6795210";
 constexpr char kEffectUuidZero[] = "00000000-0000-0000-0000-000000000000";
 constexpr char kEffectTypeUuidExtension[] = "fa81dbde-588b-11ed-9b6a-0242ac120002";
 constexpr char kEffectImplUuidExtension[] = "fa81dd00-588b-11ed-9b6a-0242ac120002";
+constexpr char kEffectTypeUuidAxionFx[] = "5867be72-4060-4c55-a378-c1cdef3e1353";
+constexpr char kEffectImplUuidAxionFx[] = "f35cb927-a887-4f3d-847f-770634486d53";
 
 #define EFFECT_TYPE_UUID_LIST_DEF(V)  \
     V(TypeUuidAcousticEchoCanceler)   \
@@ -138,7 +140,8 @@ constexpr char kEffectImplUuidExtension[] = "fa81dd00-588b-11ed-9b6a-0242ac12000
     V(TypeUuidSpatializer)            \
     V(TypeUuidVirtualizer)            \
     V(TypeUuidVisualizer)             \
-    V(TypeUuidVolume)
+    V(TypeUuidVolume)                 \
+    V(TypeUuidAxionFx)
 
 #define EFFECT_IMPL_UUID_LIST_DEF(V)    \
     V(ImplUuidAcousticEchoCancelerSw)   \
@@ -176,7 +179,8 @@ constexpr char kEffectImplUuidExtension[] = "fa81dd00-588b-11ed-9b6a-0242ac12000
     V(ImplUuidVisualizerProxy)          \
     V(ImplUuidVolumeSw)                 \
     V(ImplUuidVolumeBundle)             \
-    V(ImplUuidSpatializerSw)
+    V(ImplUuidSpatializerSw)            \
+    V(ImplUuidAxionFx)
 
 #define EFFECT_OTHER_UUID_LIST_DEF(V) \
     V(UuidNull)                           \
